@@ -4,5 +4,12 @@
 // Creazione del ciclo 
 
 for (let i = 1; i <= 100; i++) {
-    
+
+    // Creare la condizione per verificare che il programma stampi Fizz se un numero è divisibile per 3
+
+    if (i % 3 === 0) {
+        console.log('Fizz');
+        
+    }
+
 }
